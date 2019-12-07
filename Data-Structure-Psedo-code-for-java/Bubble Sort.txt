@@ -1,0 +1,16 @@
+START
+	for int i=array.length-1;i>1;i--
+		for int j=0;j<i;j++
+			if array[j]>array[j+1]
+				swap(array,j,j+1)
+			end if
+		end for
+	end for
+
+swap(int[]array,int one,int two)
+	long temp=array[one]
+	array[one]=array[two]
+	array[two]=temp
+END
+
+				

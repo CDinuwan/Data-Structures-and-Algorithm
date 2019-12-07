@@ -1,0 +1,20 @@
+//Array Searching
+searchKey=65;
+for(int j;j<nElements;j++)
+	if searchKey==array[j]
+		Break
+		if j==nElems
+			Display Cant Find
+		else 
+			Diplay Found+SearchKey
+		End if
+	End if
+End FOR
+//Array Deletion
+for(intj;j<nElems;j++)
+	if array[j]==searchKey
+		Break
+		for(int k=j;int k<nElems-1;k++)
+			arr[k]=arr[k+1]
+			nElems--									End For
+	

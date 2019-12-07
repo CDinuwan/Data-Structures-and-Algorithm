@@ -1,0 +1,12 @@
+START
+	int in,out
+	for out=1,out<array.length,out++
+		long temp=array[out]
+		in=out
+		while in>0&&a[n-1]>=temp
+			a[in]=a[in-1]
+			--in
+		end while
+	a[in]=temp
+	end for
+END

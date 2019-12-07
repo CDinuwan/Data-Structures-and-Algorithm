@@ -1,0 +1,8 @@
+START
+	int in,out,min
+	for out=0,out<array.length,out++
+		min=out
+		for in=out+1,in<array.length,in++
+			if array[in]<array[out]
+				min=in
+		swap(array,min,out)

@@ -1,0 +1,21 @@
+START
+	public static int binarySearch
+		searchKey=20
+		int mid
+		int upperbound=array.length-1
+		int lowerbound=0
+		while(true)
+			mid(lowerbound+upperbound)/2
+			if array[mid]==searchKey
+				return mid
+			else if lowerbound>upperbound
+				return -1
+			else 
+				if array[mid]<searchKey
+					lowerbound=mid+1
+				else
+					upperbound=mid-1
+				end if
+			end if
+		end while
+END
